@@ -19,7 +19,7 @@ app.use(urlencoded({
 app.set('view engine', 'ejs');
 
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://akshayppx:" + process.env.password +"@cluster0.4ezz2so.mongodb.net/toDoList");
+mongoose.connect("mongodb+srv://akshayppx:MCV5phZ8Y4FnvSDu@cluster0.4ezz2so.mongodb.net/toDoList");
 
 
 
